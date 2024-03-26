@@ -108,20 +108,28 @@
             <img src="../assets/image/image1.jpg"  height="240" width="390" alt="" />
                <div class="d-flex justify-evenly pt-3">
               <div class="d-flex">
-                    <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1" />
+                    <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
                 <p>Indonesia</p>
               </div>
 
               <div class="d-flex">
-                    <Icon name="uil:calender" style="font-size: 22px;"  class="mb-3 mr-1" />
+                    <Icon name="uil:calender" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
                 <p>3 days</p></div>
 
               <div class="d-flex">
-                  <Icon name="bi:person-fill" style="font-size: 22px;"  class="mb-3 mr-1" />
+                  <Icon name="bi:person-fill" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
                 <p>2 Person</p>
               </div>
             </div>
             <h4 class="font-bold text-center">$149.00</h4>
+              <div class="d-flex justify-center align-center">
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+               
+            </div>
             <p class="text-center">
               Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
               amet diam eos
@@ -135,20 +143,28 @@
             <img src="../assets/image/image2.avif"  height="240" alt=""  />
             <div class="d-flex justify-evenly pt-3">
               <div class="d-flex">
-                    <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1" />
+                    <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
                 <p>Indonesia</p>
               </div>
 
               <div class="d-flex">
-                    <Icon name="uil:calender" style="font-size: 22px;"  class="mb-3 mr-1" />
+                    <Icon name="uil:calender" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
                 <p>3 days</p></div>
 
               <div class="d-flex">
-                  <Icon name="bi:person-fill" style="font-size: 22px;"  class="mb-3 mr-1" />
+                  <Icon name="bi:person-fill" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
                 <p>2 Person</p>
               </div>
             </div>
             <h4 class="font-bold text-center">$139.00</h4>
+              <div class="d-flex justify-center align-center">
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+               
+            </div>
             <p class="text-center">
               Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
               amet diam eos
@@ -163,20 +179,29 @@
             <img src="../assets/image/image3.jpg"  height="240"  alt="" />
               <div class="d-flex justify-evenly pt-3">
               <div class="d-flex">
-                    <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1" />
+                    <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
                 <p>Indonesia</p>
               </div>
 
               <div class="d-flex">
-                    <Icon name="uil:calender" style="font-size: 22px;"  class="mb-3 mr-1" />
+                    <Icon name="uil:calender" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
                 <p>3 days</p></div>
 
               <div class="d-flex">
-                  <Icon name="bi:person-fill" style="font-size: 22px;"  class="mb-3 mr-1" />
+                  <Icon name="bi:person-fill" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
                 <p>2 Person</p>
               </div>
             </div>
+           
             <h4 class="font-bold text-center">$139.00</h4>
+             <div class="d-flex justify-center align-center">
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
+               
+            </div>
             <p class="text-center">
               Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
               amet diam eos

@@ -71,7 +71,7 @@
       <h4>Newsletter</h4>
       <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
       <!-- <v-text-field label="Your Email" class="bg-white" variant="outlined"></v-text-field> -->
-      <v-text-field label="Your Email" variant="solo" class="bg-white"></v-text-field>
+      <v-text-field hide-details label="Your Email" variant="solo" class="bg-white"></v-text-field>
     </v-col>
  
   </v-row>
