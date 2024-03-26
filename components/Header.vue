@@ -6,7 +6,7 @@ let drawer = ref(false);
   <!-- for large screen -->
   <div class="d-flex justify-between align-center header">
     
-<img src="../assets/home/logo.jpg" alt="">
+
 
 <div class="mt-4">
   <a href="/" class="link mr-10">Home</a>
