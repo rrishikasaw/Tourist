@@ -1,9 +1,26 @@
 <template>
-  <section class="section d-flex justify-center align-center ">
-    <div>
+  <section class="d-flex justify-center align-center ">
+    <!-- <div>
  <h1 class="text-center pt-10 text-white Enjoy">Enjoy Your Vacation With Us</h1>
   <p class="text-center pt-5 text-white joy">Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit</p>
-    </div>
+    </div> -->
+
+    <v-carousel>
+  <v-carousel-item
+    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+    cover
+  ></v-carousel-item>
+
+  <v-carousel-item
+    src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+    cover
+  ></v-carousel-item>
+
+  <v-carousel-item
+    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+    cover
+  ></v-carousel-item>
+</v-carousel>
   
   </section>
 
@@ -15,7 +32,7 @@
         </v-col>
         <v-col>
           <p class="mb-0">ABOUT US</p>
-          <h3 class="font-bold welcome">Welcome to <span class="text-green">Tourist</span></h3>
+          <h3 class="font-bold welcome">Welcome to <span class="tourist">Tourist</span></h3>
           <p>
             Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
             diam amet diam et eos. Clita erat ipsum et lorem et sit.
@@ -28,31 +45,31 @@
           <div class="d-flex justify-between">
             <div>
               <div class="d-flex">
-                  <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 text-green" />
+                  <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 icon" />
                 <p class="mb-0">First Class Flights</p>
               </div>
              <div class="d-flex">
-                   <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 text-green" />
+                   <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 icon" />
                <p class="mb-0">5 Star Accommodations150 Premium City Tours</p>
              </div>
          <div class="d-flex">
-              <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 text-green" />
+              <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 icon" />
                <p class="mb-0">150 Premium City Tours</p>
          </div>
             </div>
             <div>
             <div class="d-flex">
-                  <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 text-green" />
+                  <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 icon" />
                 <p class="mb-0">Handpicked Hotels</p>
             </div>
 
             <div class="d-flex">
-                  <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 text-green" />
+                  <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 icon" />
                   <p class="mb-0">Latest Model Vehicles</p>
             </div>
 
             <div class="d-flex">
-                  <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 text-green" />
+                  <Icon name="dashicons:arrow-right" style="font-size: 28px;"  class="mb-3 icon" />
                   <p class="mb-0">24/7 Service</p>
             </div>
             </div>
@@ -62,12 +79,12 @@
     </section>
 
     <section class="my-16">
-      <p class="text-center mb-0 text-green title">SERVICES</p>
+      <p class="text-center mb-0  titles">SERVICES</p>
       <h3 class="text-center">Our Services</h3>
       <v-row>
         <v-col>
           <v-card class="card pa-7" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
-        <Icon name="pajamas:earth" style="font-size: 40px;"  class="mb-3 text-green" />
+        <Icon name="pajamas:earth" style="font-size: 40px;"  class="mb-3 icon" />
             <h5>Tours and Travels</h5>
             <p>
               Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
@@ -77,7 +94,7 @@
         </v-col>
         <v-col>
           <v-card class="card pa-10" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
-            <Icon name="fa-solid:building" style="font-size: 40px;"  class="mb-3 text-green" />
+            <Icon name="fa-solid:building" style="font-size: 40px;"  class="mb-3 icon" />
             <h5>HR Consultancy</h5>
             <p>
               Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
@@ -87,7 +104,7 @@
         </v-col>
         <v-col>
           <v-card class="card pa-10" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
-            <Icon name="oi:person" style="font-size: 40px;"  class="mb-3 text-green" />
+            <Icon name="oi:person" style="font-size: 40px;"  class="mb-3 icon" />
             <h5>Ummarh and hajj</h5>
             <p>
               Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
@@ -98,7 +115,7 @@
       </v-row>
     </section>
 
-    <section class="section3 my-16">
+    <!-- <section class="section3 my-16">
         <p class="text-center mb-0 text-green title">PACKAGES</p>
             <h3 class="text-center mb-10">Awesome Packages</h3>
       <v-row>
@@ -210,7 +227,9 @@
           </v-card>
         </v-col>
       </v-row>
-    </section>
+    </section> -->
+  <Package/>
+  
   </v-container>
 </template>
 
@@ -226,9 +245,24 @@
     background-repeat: no-repeat;
 }
 .card:hover {
-  background-color: green;
+  background-color: rgb(173, 173, 243);
   color: white;
   
+}
+.titles{
+  color: #216f8c;
+}
+.icon{
+  color:#216f8c;
+}
+.tourist{
+  color: #216f8c;
+}
+.icon{
+color: #216f8c;
+}
+.icon:hover{
+  color:white;
 }
 
 .welcome{
@@ -239,11 +273,7 @@ font-weight: bold;
   height: 230px;
 }
 
-.title{
-  font-weight: bolder;
-  font-size: 20px;
 
-}
 .Enjoy{
   font-size: 50px;
   font-weight: bold;

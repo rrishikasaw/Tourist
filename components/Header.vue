@@ -1,58 +1,55 @@
-<script setup>
-let drawer = ref(false);
-</script>
+<script setup></script>
 
 <template>
-  <!-- for large screen -->
-  <div class="d-flex justify-between align-center header">
-    
+  <nav>
+    <v-sheet height="70" elevation="4" class="d-flex align-center nav-color">
+      <v-row>
+        <v-col>
+          <NuxtLink to="/" class="text-white text-decoration-none ps-4"
+            >Logo</NuxtLink
+          >
+        </v-col>
+        <v-col cols="auto">
+          <NuxtLink to="/" class="text-white text-decoration-none text ps-2"
+            >Home</NuxtLink
+          >
+          <NuxtLink to="/about" class="text-white text-decoration-none text ps-4"
+            >About</NuxtLink
+          >
+          <NuxtLink to="/package" class="text-white text-decoration-none text ps-4"
+            >Package</NuxtLink
+          >
+
+            <NuxtLink to="/contact" class="text-white text-decoration-none text ps-4"
+            >Contact</NuxtLink
+          >
 
 
-<div class="mt-4">
-  <a href="/" class="link mr-10">Home</a>
-  <a href="/contact" class="link mr-10">Contact</a>
-</div>
- 
-  </div>
+        </v-col>
+      </v-row>
+    </v-sheet>
+    <div class="mb-20"></div>
+  </nav>
 </template>
 
-<style>
-.d-flex.align-center {
-  align-items: center;
+<style scoped>
+a {
+  font-size: 30px;
 }
 
-.input {
-  flex: 1;
-  /* Adjust as needed */
-  max-width: 500px;
+.nav-color {
+  background: #216f8c;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
-.v-btn {
-  color: #333;
-  font-size: 14px;
-  padding: 10px;
+.mb-20 {
+  margin-bottom: 80px;
 }
-
-.v-btn.icon p {
-  margin: 0;
-  font-size: 14px;
-}
-.wisdom{
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.link{
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
-
-}
-.link:hover{
-  color: green;
-  text-decoration: underline;
-}
-.header{
-  border-bottom: 2px solid green;
+.text{
+  font-size: 18px;
+  margin-right: 12px;
 }
 </style>
