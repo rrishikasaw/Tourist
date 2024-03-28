@@ -19,12 +19,12 @@ onMounted(() => {
 
 	<main>
 		<!-- Alert Message -->
-		<v-container>
+		<!-- <v-container>
 			<v-alert v-model="alert.visible" border="start" variant="tonal" closable :icon="alert.icon" close-label="Close"
 				:color="alert.color" :title="alert.title">
 				{{ alert.message }}
 			</v-alert>
-		</v-container>
+		</v-container> -->
 		<slot />
 	</main>
 	<Footer />
@@ -61,5 +61,7 @@ onMounted(() => {
 <style scoped>
 main {
 	min-height: calc(100dvh - 70px - 70px);
+	background-color: #F9F9F9;
 }
+
 </style>

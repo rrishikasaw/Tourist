@@ -1,3 +1,9 @@
+<script setup>
+import image1 from "../assets/image/section/section1-banner.jpg"
+import image2 from "../assets/image/section/section1-banner2.jpg"
+import image3 from "../assets/image/section/section-banner3.jpg"
+</script>
+
 <template>
   <section class="d-flex justify-center align-center ">
     <!-- <div>
@@ -7,23 +13,22 @@
 
     <v-carousel>
   <v-carousel-item
-    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+    :src="image1"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+    :src="image2"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+    :src="image3"
     cover
   ></v-carousel-item>
 </v-carousel>
   
   </section>
-
   <v-container>
     <section class="section2 mt-10">
       <v-row>
@@ -115,119 +120,7 @@
       </v-row>
     </section>
 
-    <!-- <section class="section3 my-16">
-        <p class="text-center mb-0 text-green title">PACKAGES</p>
-            <h3 class="text-center mb-10">Awesome Packages</h3>
-      <v-row>
-        <v-col>
-          <v-card class="pb-5" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
-          
-            <img src="../assets/image/image1.jpg"  height="240" width="390" alt="" />
-               <div class="d-flex justify-evenly pt-3">
-              <div class="d-flex">
-                    <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
-                <p>Indonesia</p>
-              </div>
-
-              <div class="d-flex">
-                    <Icon name="uil:calender" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
-                <p>3 days</p></div>
-
-              <div class="d-flex">
-                  <Icon name="bi:person-fill" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
-                <p>2 Person</p>
-              </div>
-            </div>
-            <h4 class="font-bold text-center">$149.00</h4>
-              <div class="d-flex justify-center align-center">
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-               
-            </div>
-            <p class="text-center">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam eos
-            </p>
-            <div class="d-flex justify-end pe-4"><v-btn class="bg-success mx-2">Read more</v-btn><v-btn class="bg-success" >Book now</v-btn></div>
-          </v-card>
-        </v-col>
-        <v-col>
-          <v-card class="pb-5" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);"
-            >
-            <img src="../assets/image/image2.avif"  height="240" alt=""  />
-            <div class="d-flex justify-evenly pt-3">
-              <div class="d-flex">
-                    <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
-                <p>Indonesia</p>
-              </div>
-
-              <div class="d-flex">
-                    <Icon name="uil:calender" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
-                <p>3 days</p></div>
-
-              <div class="d-flex">
-                  <Icon name="bi:person-fill" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
-                <p>2 Person</p>
-              </div>
-            </div>
-            <h4 class="font-bold text-center">$139.00</h4>
-              <div class="d-flex justify-center align-center">
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-               
-            </div>
-            <p class="text-center">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam eos
-            </p>
-            <div class="d-flex justify-end pe-4"><v-btn class="bg-success mx-2">Read more</v-btn><v-btn class="bg-success">Book now</v-btn></div>
-          </v-card>
-        </v-col>
-       
-         <v-col>
-          <v-card class="pb-5" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);"
-            >
-            <img src="../assets/image/image3.jpg"  height="240"  alt="" />
-              <div class="d-flex justify-evenly pt-3">
-              <div class="d-flex">
-                    <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                <p>Indonesia</p>
-              </div>
-
-              <div class="d-flex">
-                    <Icon name="uil:calender" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
-                <p>3 days</p></div>
-
-              <div class="d-flex">
-                  <Icon name="bi:person-fill" style="font-size: 22px;"  class="mb-3 mr-1  text-green" />
-                <p>2 Person</p>
-              </div>
-            </div>
-           
-            <h4 class="font-bold text-center">$139.00</h4>
-             <div class="d-flex justify-center align-center">
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-                 <Icon name="ic:baseline-star" style="font-size: 22px;"  class="mb-3 mr-1 text-green" />
-               
-            </div>
-            <p class="text-center">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam eos
-            </p>
-            <div class="d-flex justify-end pe-4 "><v-btn class="bg-success mx-2">Read more</v-btn><v-btn class="bg-success">Book now</v-btn></div>
-          </v-card>
-        </v-col>
-      </v-row>
-    </section> -->
+  
   <Package/>
   
   </v-container>

@@ -13,18 +13,28 @@
           <NuxtLink to="/" class="text-white text-decoration-none text ps-2"
             >Home</NuxtLink
           >
-          <NuxtLink to="/about" class="text-white text-decoration-none text ps-4"
+          <NuxtLink
+            to="/about"
+            class="text-white text-decoration-none text ps-4"
             >About</NuxtLink
           >
-          <NuxtLink to="/package" class="text-white text-decoration-none text ps-4"
+          <NuxtLink
+            to="/package"
+            class="text-white text-decoration-none text ps-4"
             >Package</NuxtLink
           >
 
-            <NuxtLink to="/contact" class="text-white text-decoration-none text ps-4"
+          <NuxtLink
+            to="/contact"
+            class="text-white text-decoration-none text ps-4"
             >Contact</NuxtLink
           >
 
-
+           <NuxtLink
+            to="/tours"
+            class="text-white text-decoration-none text ps-4"
+            >Tours and Travels</NuxtLink
+          >
         </v-col>
       </v-row>
     </v-sheet>
@@ -48,7 +58,7 @@ a {
 .mb-20 {
   margin-bottom: 80px;
 }
-.text{
+.text {
   font-size: 18px;
   margin-right: 12px;
 }
