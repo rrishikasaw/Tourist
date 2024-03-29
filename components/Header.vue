@@ -35,6 +35,12 @@
             class="text-white text-decoration-none text ps-4"
             >Tours and Travels</NuxtLink
           >
+
+           <NuxtLink
+            to="/hr"
+            class="text-white text-decoration-none text ps-4"
+            >HR Consultancy</NuxtLink
+          >
         </v-col>
       </v-row>
     </v-sheet>
