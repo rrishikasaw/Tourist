@@ -5,6 +5,8 @@ import image3 from "../assets/image/section/section-banner3.jpg"
 </script>
 
 <template>
+
+ 
   <section class="d-flex justify-center align-center ">
     <!-- <div>
  <h1 class="text-center pt-10 text-white Enjoy">Enjoy Your Vacation With Us</h1>

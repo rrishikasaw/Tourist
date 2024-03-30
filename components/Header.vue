@@ -6,11 +6,14 @@
       <v-row>
         <v-col>
           <NuxtLink to="/" class="text-white text-decoration-none ps-4"
-            >Logo</NuxtLink
+            >
+            <img src="../assets/image/logo/logo.jpg" alt="" width="70">
+            
+            </NuxtLink
           >
         </v-col>
         <v-col cols="auto">
-          <NuxtLink to="/" class="text-white text-decoration-none text ps-2"
+          <NuxtLink to="/" class="text-white text-decoration-none text ps-2 "
             >Home</NuxtLink
           >
           <NuxtLink
@@ -30,17 +33,44 @@
             >Contact</NuxtLink
           >
 
-           <NuxtLink
-            to="/tours"
-            class="text-white text-decoration-none text ps-4"
-            >Tours and Travels</NuxtLink
-          >
+          <v-menu open-on-hover>
+            <template v-slot:activator="{ props }">
+              <v-btn
+                color="#216f8c"
+                v-bind="props"
+                valiant="text"
+                class="text-white mr-10"
+              >
+                services
+              </v-btn>
+            </template>
 
-           <NuxtLink
-            to="/hr"
-            class="text-white text-decoration-none text ps-4"
-            >HR Consultancy</NuxtLink
-          >
+            <v-list>
+              <v-list-item>
+                <v-list-item-title>
+                  <NuxtLink
+                    to="/tours"
+                    class="text-black text-decoration-none text ps-4"
+                    >Tours and Travels</NuxtLink
+                  >
+                </v-list-item-title>
+                <v-list-item-title>
+                  <NuxtLink
+                    to="/hr"
+                    class="text-black text-decoration-none text ps-4"
+                    >HR Consultancy</NuxtLink
+                  >
+                </v-list-item-title>
+                <v-list-item-title>
+                  <NuxtLink
+                    to="/hajj"
+                    class="text-black text-decoration-none text ps-4"
+                    >Hajj Yatra</NuxtLink
+                  >
+                </v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-menu>
         </v-col>
       </v-row>
     </v-sheet>
@@ -61,11 +91,17 @@ a {
   z-index: 5;
 }
 
+.nav-color:hover{
+  background-color:black;
+  color: white;
+}
+
 .mb-20 {
   margin-bottom: 80px;
 }
 .text {
-  font-size: 18px;
+  font-size: 15px;
   margin-right: 12px;
+  
 }
 </style>

@@ -2,13 +2,14 @@
 <section class="section d-flex justify-center align-center">
 <div>
   <h2 class="text-white text-center">HR Consultancy</h2>
-<p class="text-white text-center">At our HR Consultancy, we believe that the success of any organization lies in its people. With our comprehensive range of strategic HR solutions, we empower businesses to unlock the full potential of their workforce and drive sustainable growth. Here's how we can help</p>
+<!-- <p class="text-white text-center">At our HR Consultancy, we believe that the success of any organization lies in its people. With our comprehensive range of strategic HR solutions, we empower businesses to unlock the full potential of their workforce and drive sustainable growth. Here's how we can help</p> -->
 </div>
 
 </section>
 
 <v-container>
   <section class="section2 my-10">
+    <h6 class=" text-center">At our HR Consultancy, we believe that the success of any organization lies in its people. With our comprehensive range of strategic HR solutions, we empower businesses to unlock the full potential of their workforce and drive sustainable growth. Here's how we can help</h6>
 <v-row class="pa-10">
   <v-col>
    <h3 class="mt-10" style="color: #0D1681; font-weight: bold;">Unlock  Your HR potential With Strategic Consulting Services</h3>
