@@ -51,7 +51,7 @@
         <h4>Contact</h4>
         <div class="d-flex">
           <Icon name="mdi:location" style="font-size: 22px" class="mb-3 mr-2" />
-          <p class="mb-0">123 Street, New York, USA</p>
+          <p class="mb-0">332001 New Roshanganj Sikar Rajasthan</p>
         </div>
         <div class="d-flex">
           <Icon
@@ -63,7 +63,7 @@
         </div>
         <div class="d-flex">
           <Icon name="mdi:email" style="font-size: 22px" class="mb-3 mr-2" />
-          <p class="mb-0">info@example.com</p>
+          <p class="mb-0">Info@wisdominternationals.com</p>
         </div>
 
         <div class="d-flex">

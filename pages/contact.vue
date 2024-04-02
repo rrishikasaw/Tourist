@@ -62,7 +62,7 @@ async function sendMail() {
             </div>
             <div>
               <p class=" mb-0 office">Office</p>
-              <p>123 Street, New York, USA</p>
+              <p>332001 New Roshanganj Sikar Rajasthan</p>
             </div>
           </div>
 
@@ -86,7 +86,7 @@ async function sendMail() {
             </div>
             <div>
               <p class=" mb-0 office">Email</p>
-              <p>info@example.com</p>
+              <p>Info@wisdominternationals.com</p>
             </div>
           </div>
         </v-col>
