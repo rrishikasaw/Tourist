@@ -40,34 +40,40 @@
 
   <section class="section4 my-10">
     <h2 style="color: #0D1681; font-weight: bold;" class="text-center my-10">HR Compliance and Risk Management</h2>
-<v-row>
-  <v-col>
-    <v-card class="card">
-      <img src="../assets/image/service2/service2-image1.avif" class="w-full" height="250" alt="">
+<v-row justify="center">
+  <v-col cols="12" lg="4">
+    <v-card >
+ 
+       <img src="../assets/image/service2/service2-image1.avif" class="w-full" height="250" alt="">
      <div class="pa-5">
        <h6>Unlock Talent Potential</h6>
       <p>Attracting and retaining top talent is crucial for organizational success. Our recruitment experts employ proven strategies to source, assess, and select candidates who align with your company culture and goals. Let us help you build a high-performing team that drives innovation and growth.</p>
      </div>
+   
     </v-card>
   </v-col>
 
-  <v-col>
-    <v-card class="card">
-      <img src="../assets/image/service2/service2-image1.avif" alt="" class="w-full" height="250">
+  <v-col cols="12" lg="4">
+    <v-card >
+ 
+       <img src="../assets/image/service2/service2-image1.avif" alt="" class="w-full" height="250">
     <div class="pa-5">
         <h6>Unlock Talent Potential</h6>
       <p>Attracting and retaining top talent is crucial for organizational success. Our recruitment experts employ proven strategies to source, assess, and select candidates who align with your company culture and goals. Let us help you build a high-performing team that drives innovation and growth.</p>
     </div>
-    </v-card>
+ 
+  </v-card>
   </v-col>
 
-   <v-col>
-    <v-card class="card">
-      <img src="../assets/image/service2/service2-image3.jpg" alt="" class="w-full" height="250">
+   <v-col cols="12" lg="4">
+    <v-card >
+     
+        <img src="../assets/image/service2/service2-image3.jpg" alt="" class="w-full" height="250">
       <div class="pa-5">
         <h6>Unlock Talent Potential</h6>
       <p>Attracting and retaining top talent is crucial for organizational success. Our recruitment experts employ proven strategies to source, assess, and select candidates who align with your company culture and goals. Let us help you build a high-performing team that drives innovation and growth.</p>
       </div>
+     
     </v-card>
   </v-col>
 </v-row>
@@ -93,6 +99,12 @@
     max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.w-full {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin-inline: auto;
 }
 
 .btn{

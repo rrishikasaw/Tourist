@@ -17,7 +17,8 @@ onMounted(() => {
 <template>
 	
 	
-	<Header />
+	<!-- <Header /> -->
+<NavBar/>
 
 	<main>
 		<!-- Alert Message -->

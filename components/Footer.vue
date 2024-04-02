@@ -156,7 +156,7 @@
 </template>
 <style scoped>
 .footer {
-  height: 400px;
+  
   background-color: black;
   color: white;
 }

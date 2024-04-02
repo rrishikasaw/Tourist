@@ -3,10 +3,10 @@
         <p class="text-center mb-0  title">PACKAGES</p>
             <h3 class="text-center mb-10">Awesome Packages</h3>
       <v-row>
-        <v-col>
+        <v-col cols="12" lg="4">
           <v-card class="pb-5" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
           
-            <img src="../assets/image/image1.jpg"  height="240" width="390" alt="" />
+            <img src="../assets/image/image1.jpg"  height="240" class="w-full" alt="" />
                <div class="d-flex justify-evenly pt-3">
               <div class="d-flex">
                     <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1  icons" />
@@ -38,11 +38,11 @@
             </p>
             <div class="d-flex justify-end pe-4"><v-btn class="btn mx-2">Read more</v-btn><v-btn class="btn" >Book now</v-btn></div>
           </v-card>
-        </v-col>
-        <v-col>
+        </v-col >
+        <v-col  cols="12" lg="4">
           <v-card class="pb-5" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);"
             >
-            <img src="../assets/image/image2.avif"  height="240" alt=""  />
+            <img src="../assets/image/image2.avif"  height="240" class="w-full" alt=""  />
             <div class="d-flex justify-evenly pt-3">
               <div class="d-flex">
                     <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1  icons" />
@@ -76,10 +76,10 @@
           </v-card>
         </v-col>
        
-         <v-col>
+         <v-col cols="12" lg="4">
           <v-card class="pb-5" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);"
             >
-            <img src="../assets/image/image3.jpg"  height="240"  alt="" />
+            <img src="../assets/image/image3.jpg"  height="240" class="w-full"  alt="" />
               <div class="d-flex justify-evenly pt-3">
               <div class="d-flex">
                     <Icon name="mdi:location" style="font-size: 22px;"  class="mb-3 mr-1 icons" />
@@ -122,6 +122,12 @@
   font-size: 20px;
   color: #216f8c;
 
+}
+.w-full{
+	width: 100%;
+  max-width: 400px;
+display: block;
+margin-inline: auto;
 }
 .star{
   color: rgb(183, 183, 6);

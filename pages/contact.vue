@@ -1,3 +1,42 @@
+<script setup>
+let name = ref('')
+let email= ref('')
+let subject = ref('')
+let message = ref('')
+
+async function sendMail() {
+  try {
+    let res = await fetch("http://localhost:5000/api/contacts", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name: name.value,
+        email: email.value,
+        subject: subject.value,
+        message: message.value
+      })
+    });
+
+    if (res.ok) {
+      console.log('Email sent successfully');
+    } else {
+      console.error('Failed to send email');
+    }
+  } catch (error) {
+    console.error('Error sending email',);
+  }
+
+  name.value = ''
+  email.value = ''
+  subject.value = ''
+  message.value = ''
+}
+
+</script>
+
+
 <template>
   <section class="section d-flex justify-evenly align-center">
     <div>
@@ -59,15 +98,17 @@
                 label="Your Name"
                 variant="outlined"
                 class="mr-2"
+                v-model="name"
               ></v-text-field>
               <v-text-field
                 label="Your Email"
                 variant="outlined"
+                v-model="email"
               ></v-text-field>
             </div>
-            <v-text-field label="Subject" variant="outlined"></v-text-field>
-            <v-textarea label="Message" variant="outlined"></v-textarea>
-            <v-btn class=" btn"> Send Message </v-btn>
+            <v-text-field label="Subject" v-model="subject" variant="outlined"></v-text-field>
+            <v-textarea label="Message" v-model="message" variant="outlined"></v-textarea>
+            <v-btn class=" btn" @click="sendMail()"> Send Message </v-btn>
           </div>
         </v-col>
       </v-row>

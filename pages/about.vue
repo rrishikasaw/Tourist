@@ -21,25 +21,25 @@
   </div>
 <h4 class="vision mt-10">Our Vision</h4>
   <v-row>
-    <v-col>
+    <v-col cols="12" lg="4">
       <v-card class="card pa-3">
           <div class="box">
-            <Icon name="fluent:building-bank-20-regular" style="font-size: 24px;"  class="  " />
+            <Icon name="fluent:building-bank-20-regular" style="font-size: 24px;" />
           </div>
           <h5 class="mt-6">Mission</h5>
           <p>We aim to make the world a better place through innovation and collaboration.</p>
       </v-card>
     </v-col>
-    <v-col>
+    <v-col cols="12" lg="4">
         <v-card class="card pa-3">
           <div class="box">
-            <Icon name="ph:graduation-cap-light" style="font-size: 22px;"  class="" />
+            <Icon name="ph:graduation-cap-light" style="font-size: 22px;" />
           </div>
           <h5 class="mt-6">Values</h5>
           <p>We believe in honesty, integrity, and respect for all individuals.</p>
       </v-card>
     </v-col>
-    <v-col>
+    <v-col cols="12" lg="4">
         <v-card class="card pa-3">
           <div class="box">
             <Icon name="ph:eye" style="font-size: 22px;"  class="" />
@@ -97,6 +97,7 @@
   height: 200px;
   margin-block: 30px;
 }
+
 .vision{
   font-size: 25px;
   font-weight: bold;

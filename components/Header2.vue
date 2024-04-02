@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <div class="card">
    <div class="d-flex">
      <div class="d-flex">
@@ -52,4 +52,4 @@
 }
 
 
-</style> -->
+</style>
